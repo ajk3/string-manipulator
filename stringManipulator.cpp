@@ -1,6 +1,5 @@
 // anurag kunwar
-// 5/1
-// EC lab
+// 5/1/2019
 
 // this is a menu driven program
 
@@ -22,9 +21,8 @@ const int SEVEN = 7;
 const int EIGHT = 8;
 const int NINE = 9;
 const int MAX = 5;
-// function prototype
 
-//bool stringValidator(char[]);
+// function prototype
 void stringInput(char[], char[]);
 void replaceOne(char[]);
 void replaceMultiple(char[]);
@@ -39,7 +37,6 @@ int main()
 {
 
 	int choice; // variable to hold choice
-
 
 	char inputString[ELEMENT] = { };
 	char copyString[ELEMENT] = { }; // for copying the string
