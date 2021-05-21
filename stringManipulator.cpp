@@ -530,7 +530,7 @@ void removeCharacter(char input[])
 
 	input[len - 1] = '\0'; // placing null terminator
 
-	cout << " Character is removed in the string!! " << endl;
+	cout << " Character removed from the string!! " << endl;
 	cout << " " << input << "  is the new string " << endl;
 	cout << " The lenght of the string is " << strlen(input);
 	cout << endl << endl;
